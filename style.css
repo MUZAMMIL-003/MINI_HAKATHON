@@ -1,0 +1,44 @@
+.para{
+    width: 800px;
+    height: 500px;
+    /* background-color: aqua; */
+    /* text-align: center; */
+}
+.button2{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px !important;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+
+}
+header{
+    margin-bottom: 60px;
+}
+h1{
+    font-family: "Signika Negative", sans-serif;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.srvic{
+    color: black;
+    background-color: greenyellow;
+}
+.para-2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mini_1{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width : 977px) {
+    .landing-page{
+       flex-direction: column !important;
+    }
+}
